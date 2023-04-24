@@ -18,6 +18,10 @@ Please access the datasets used in our paper from the following resources:
 
 #### <ins>Entity Typing(ET):</ins>  [BBN](https://catalog.ldc.upenn.edu/LDC2005T33), [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19)
 #### <ins>Named Entity Recognition(NER):</ins>  [CoNLL2003](https://huggingface.co/datasets/conll2003), [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19)
+#### <ins>Relation Classification(RC):</ins>  [TACRED](https://nlp.stanford.edu/projects/tacred/), [SemEval2010](http://www.kozareva.com/downloads.html)
+#### <ins>Relation Extraction(RE):</ins>  [ACE05-R](https://catalog.ldc.upenn.edu/LDC2006T06), [SciERC](http://nlp.cs.washington.edu/sciIE/)
+#### <ins>Event Detection(ED), Event Argument Extraction(EAE), Event Extraction(EE):</ins>  [ACE05-E](https://catalog.ldc.upenn.edu/LDC2006T06), [ACE05-E+](https://catalog.ldc.upenn.edu/LDC2006T06)
+
 
 # An Example
 
@@ -30,6 +34,6 @@ We show an input example for the event detection (ED) task to help readers under
 | **<ins>Input and Task Requirement:<ins>** *Perform ED task for the following input list, and print the output: \[’Putin’, ’concluded’, ’his’, ’two’, ’days’, ’of’, ’talks’, ’in’, ’Saint’, ’Petersburg’, ’with’, ’Jacques’, ’Chirac’, ’of’, ’France’, ’and’, ’German’, ’Chancellor’, ’Gerhard’, ’Schroeder’, ’on’, ’Saturday’, ’still’, ’urging’, ’for’, ’a’, ’central’, ’role’, ’for’, ’the’, ’United’, ’Nations’, ’in’, ’a’, ’post’, ’-’, ’war’, ’revival’, ’of’, ’Iraq’, ’.’\] The output of ED task should be a list of dictionaries following json format. Each dictionary corresponds to the occurrence of an event in the input list and should consists of "trigger", "word_index", "event_type", "top3_event_type", "top5_event_type", "confidence", "if_context_dependent", "reason" and "if_reasonable" nine keys. The value of "word_index" key is an integer indicating the index (start from zero) of the "trigger" in the input list. The value of "confidence" key is an integer ranging from 0 to 100, indicating how confident you are that the "trigger" expresses the "event_type" event. The value of "if_context_dependent" key is either 0 (indicating the event semantic is primarily expressed by the trigger rather than contexts) or 1 (indicating the event semantic is primarily expressed by contexts rather than the trigger). The value of "reason" key is a string describing the reason why the "trigger" expresses the "event_type", and do not use any " mark in this string. The value of "if_reasonable" key is either 0 (indicating the reason given in the "reason" field is not reasonable) or 1 (indicating the reason given in the "reason" field is reasonable). Note that your answer should only contain the json string and nothing else.*  |
 
 
-# Setup and Results
+# Future Work
 
-Please refer our paper for more details.
+We will add more analysis on other popular LLMs in the next version.
