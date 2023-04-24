@@ -11,6 +11,6 @@ In this paper, we focus on assessing the overall ability of ChatGPT using 7 fine
 
 We have collected 15 keys from the ChatGPT and domain experts. Specifically, 10 keys are extracted from ChatGPT and 5 keys involves human involvements. These keys could systemically assess ChatGPT's ability from the following four aspects: 
 
-![keys] (https://github.com/pkuserc/ChatGPT_for_IE/blob/main/Image/keys.jpg)
+! [keys] (https://github.com/pkuserc/ChatGPT_for_IE/blob/main/Image/keys.jpg)
 
 
