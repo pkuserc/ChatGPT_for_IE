@@ -13,4 +13,6 @@ We have collected 15 keys from the ChatGPT and domain experts. Specifically, 10 
 
 ![keys](https://github.com/pkuserc/ChatGPT_for_IE/blob/main/Image/keys.jpg)
 
+> `Setup and Results`
 
+Please refer our paper for more details.
