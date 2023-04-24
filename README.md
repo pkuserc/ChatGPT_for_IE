@@ -16,7 +16,7 @@ We have collected 15 keys from the ChatGPT and domain experts. Specifically, 10 
 
 # An Example
 
-We show an input examples for the event detection (ED) task to help readers understand our implementation.
+We show an input example for the event detection (ED) task to help readers understand our implementation.
 
 |  **Input of Event Detection (ED)**  |
 |  ---- |
