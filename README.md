@@ -16,8 +16,8 @@ We have collected 15 keys from the ChatGPT and domain experts. Specifically, 10 
 # Dataset
 Please access the datasets used in our paper from the following resources:
 
-#### <ins>Entity Typing(ET)<\ins>:  [BBN](https://catalog.ldc.upenn.edu/LDC2005T33), [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19)
-#### <ins>Named Entity Recognition(NER)<\ins>:  [CoNLL2003](https://huggingface.co/datasets/conll2003), [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19)
+#### <ins>Entity Typing(ET):</ins>  [BBN](https://catalog.ldc.upenn.edu/LDC2005T33), [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19)
+#### <ins>Named Entity Recognition(NER):</ins>  [CoNLL2003](https://huggingface.co/datasets/conll2003), [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19)
 
 # An Example
 
