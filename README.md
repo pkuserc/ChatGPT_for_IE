@@ -20,7 +20,7 @@ Please access the datasets used in our paper from the following resources:
 #### <ins>Named Entity Recognition(NER):</ins>  [CoNLL2003](https://huggingface.co/datasets/conll2003), [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19)
 #### <ins>Relation Classification(RC):</ins>  [TACRED](https://nlp.stanford.edu/projects/tacred/), [SemEval2010](http://www.kozareva.com/downloads.html)
 #### <ins>Relation Extraction(RE):</ins>  [ACE05-R](https://catalog.ldc.upenn.edu/LDC2006T06), [SciERC](http://nlp.cs.washington.edu/sciIE/)
-#### <ins>Event Detection(ED), Event Argument Extraction(EAE), Event Extraction(EE):</ins>  [ACE05-E](https://catalog.ldc.upenn.edu/LDC2006T06), [ACE05-E+](https://catalog.ldc.upenn.edu/LDC2006T06)
+#### <ins>Event Detection(ED), Event Argument Extraction(EAE) and Event Extraction(EE):</ins>  [ACE05-E](https://catalog.ldc.upenn.edu/LDC2006T06), [ACE05-E+](https://catalog.ldc.upenn.edu/LDC2006T06)
 
 
 # An Example
