@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 ner_conll_path = "./prompts.json"
 
-openai.api_key = "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"
+openai.api_key = "sk-"
 
 label_set = ["PER", "LOC", "ORG", "MISC"]
 
