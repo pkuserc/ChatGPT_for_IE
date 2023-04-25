@@ -100,7 +100,7 @@ with open(open_prompt_path, 'w') as f:
 closed_input_path = output_path
 closed_prompt_path = './Prompt/EAE_E+_Closed.json'
 
-with open("./data/description_queries_new.csv", "r") as f:
+with open("./Code/description_queries_new.csv", "r") as f:
     lines = f.readlines()   # loading questions for roles from 《EE as QA》 paper
 Event2Query = {}
 for line in lines:
