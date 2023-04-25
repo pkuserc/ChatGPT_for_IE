@@ -2,7 +2,7 @@
 
 [Bo Li](https://deepblue666.github.io/), Gexiang Fang, Yang Yang, Quansen Wang, [Wei Ye](https://se.pku.edu.cn/kcl/weiye/), Wen Zhao, and Shikun Zhang. 
 
-### NOTICE: Hello! We’re glad to share our work, due to the upcoming 五一假期, we will finish this repo in a few days :)
+### NOTICE: Hello! We’re glad to share our work. Due to the upcoming 五一假期, we will finish this repo in a few days :)
 
 # Abstract
 
