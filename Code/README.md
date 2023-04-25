@@ -14,3 +14,9 @@
 
 ## Generate prompts for event datasets
 run `sh gen_event_prompt.sh.`, generated prompts will be saved in the `Prompt` dir.
+
+## Get output from ChatGPT
+
+run `python ./Code/call_api.py --task_dataset=ED_E_Closed`, where `task_dataset` argument can be "EAE_E_Open", "EE_E+_Closed", etc ...
+
+All outputs returned from ChatGPT are in `Output` dir. File names in `Output` dir follows this format: `{doc_id}-{sent_id}` or `{doc_id}-{sent_id}-{event_id}`
