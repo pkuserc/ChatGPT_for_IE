@@ -13,7 +13,7 @@
 2. Put data processed by [OneIE](http://blender.cs.illinois.edu/software/oneie/) into the folder `data/ACE05-E+`
 
 ## Generate prompts for event datasets
-run `sh gen_event_prompt.sh.`, generated prompts will be saved in the `Prompt` dir.
+run `sh gen_event_prompt.sh`, generated prompts will be saved in the `Prompt` dir.
 
 ## Get output from ChatGPT
 
