@@ -20,3 +20,6 @@ run `sh gen_event_prompt.sh.`, generated prompts will be saved in the `Prompt` d
 run `python ./Code/call_api.py --task_dataset=ED_E_Closed`, where `task_dataset` argument can be "EAE_E_Open", "EE_E+_Closed", etc ...
 
 All outputs returned from ChatGPT are in `Output` dir. File names in `Output` dir follows this format: `{doc_id}-{sent_id}` or `{doc_id}-{sent_id}-{event_id}`
+
+## Evaluation
+run `python ./Code/ED/score_ED_E.py` and `./Code/ED/score_ED_E+.py` to evaluate ED task on ACE05-E and ACE05-E+, respectively. The same for EAE and EE tasks.
