@@ -258,23 +258,23 @@ for line in bar:
 
             # 2. Open 场景下的回答
             "isOpenCorrect": -1,
-            "OpenET": pred_open,
+            "Open": pred_open,
             "OConf": open_conf_chatgpt_ans,
-            "Reason4OET": open_reason_chatgpt_ans,
-            "ifR4OETAuto": open_reasonable_chatgpt_ans,
-            "ifR4OETManual": -1,
-            "ifR4OETFicAuto": open_fictitious_chatgpt_ans,
-            "ifR4OETFicManual": -1,
+            "Reason4O": open_reason_chatgpt_ans,
+            "ifR4OAuto": open_reasonable_chatgpt_ans,
+            "ifR4OManual": -1,
+            "ifR4OFicAuto": open_fictitious_chatgpt_ans,
+            "ifR4OFicManual": -1,
 
             # 2. Close 场景下的回答
             "isCloseCorrect": 1 if ground_truth == pred_close else 0,
-            "ClosedET": pred_close,
+            "Closed": pred_close,
             "CConf": close_conf_chatgpt_ans,
-            "Reason4CET": close_reason_chatgpt_ans,
-            "ifR4CETAuto": close_reasonable_chatgpt_ans,
-            "ifR4CETManual": -1,
-            "ifR4CETFicAuto": close_fictitious_chatgpt_ans,
-            "ifR4CETFicManual": -1
+            "Reason4C": close_reason_chatgpt_ans,
+            "ifR4CAuto": close_reasonable_chatgpt_ans,
+            "ifR4CManual": -1,
+            "ifR4CFicAuto": close_fictitious_chatgpt_ans,
+            "ifR4CFicManual": -1
         }
 
         cnt += 1
