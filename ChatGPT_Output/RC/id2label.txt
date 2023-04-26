@@ -1,0 +1,1 @@
+['Cause Effect', 'Instrument Agency', 'Product Producer', 'Content Container', 'Entity Origin', 'Entity Destination', 'Component Whole', 'Member Collection', 'Message Topic', 'Other']
