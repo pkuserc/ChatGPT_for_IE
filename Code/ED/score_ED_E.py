@@ -142,9 +142,9 @@ def read_gold_example(path):
         if not (sent_len >= SETN_LEN[0] and sent_len < SETN_LEN[1]):
             continue
         for event in events:
-            word_idx = event['word_idx']
+            word_idx = event['trigger']['word_idx']
             event_type = event['event_type']
-            trigger_word = event['trigger_word']
+            trigger_word = event['trigger']['text']
             gold[line['id']].append([word_idx, event_type, trigger_word, sent_len])
 
     return gold, gold_len
