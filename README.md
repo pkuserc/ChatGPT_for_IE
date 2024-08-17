@@ -36,3 +36,12 @@ We show an input example for the event detection (ED) task to help readers under
 # Future Work
 
 We will add more analysis on other popular LLMs in the next version.
+
+# Citation
+
+@article{li2023evaluating,
+  title={Evaluating ChatGPT's Information Extraction Capabilities: An Assessment of Performance, Explainability, Calibration, and Faithfulness},
+  author={Li, Bo and Fang, Gexiang and Yang, Yang and Wang, Quansen and Ye, Wei and Zhao, Wen and Zhang, Shikun},
+  journal={arXiv preprint arXiv:2304.11633},
+  year={2023}
+}
